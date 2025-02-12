@@ -1,5 +1,3 @@
-
-
 import 'dart:collection';
 import 'dart:io';
 import 'dart:math';
@@ -27,6 +25,17 @@ void main(){
 
   // problem3
 
+String minders = "Minders Flutter Committee is the best";
+int counter = 0;
+
+for (int i = minders.length - 1; i >= 0; i--) {
+  if (minders[i] == " ") {
+    break; 
+  }
+  counter++;
+}
+
+print(counter); 
 
   // problem4
 
